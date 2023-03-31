@@ -4,7 +4,7 @@
   "description": "test nodejs with restfull",
   "main": "src/index.js",
   "scripts": {
-    "tailwind:css": "postcss src/public/styles/tailwind.css -o src/public/styles/style.css",
+    "tailwind:css": "postcss src/public/styles/tailwind.css -o src/public/styles/style.css -w",
     "start": "npm run tailwind:css & nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
